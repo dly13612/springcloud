@@ -14,8 +14,6 @@ spring:
       host: localhost
       port: 5762
       username: guest
-      password: guest
-      virtual-host: /
 management:
   security:
     #关闭安全验证，否则访问refresh端点时会提示权限不足
